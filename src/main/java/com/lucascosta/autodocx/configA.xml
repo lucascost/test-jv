@@ -1,0 +1,8 @@
+<form>
+    <tittle>Exemplo ASO</tittle>
+    <template>C:\Users\Windows.lite\Documents\LUCAS\autodocx\src\main\java\com\lucascosta\autodocx\MODELO - ATESTADO DE SAUDE OCUPACIONAL 24.3.docx</template>
+    <output-file></output-file>
+    <field name="nome_paciente" key="{NOME_PACIENTE}" label="Nome Completo" type="text" required="true"/>
+</form>
+
+    
