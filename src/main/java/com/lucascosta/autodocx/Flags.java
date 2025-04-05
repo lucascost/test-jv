@@ -49,23 +49,4 @@ public class Flags {
                 .desc("Defines the key:value pairs for replacement [\"key1:value1\", ...]")
                 .build());
     }
-
-    public static void verify(String[] args) {
-        CommandLineParser parser = new DefaultParser();
-        HelpFormatter formatter = new HelpFormatter();
-        
-        try {
-            CommandLine cmd = parser.parse(options, args);
-
-            if (cmd.hasOption("h")) {
-                formatter.printHelp("AutoDocx", options);
-            }
-
-        } catch (ParseException e) {
-            System.err.println("Error processing arguments: " + e.getMessage());
-            formatter.printHelp("autodocx", options);
-            System.exit(1);
-        }
-    }
-    
 }
