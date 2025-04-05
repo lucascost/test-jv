@@ -1,0 +1,1 @@
+-t "C:\Users\Windows.lite\Documents\LUCAS\autodocx\src\main\java\com\lucascosta\autodocx\MODELO - ATESTADO DE SAUDE OCUPACIONAL 24.3.docx" -r "{NOME_PACIENTE}:TESTE" "{EMPRESA}:CLISANNA" "{RG}:0000000000" "{FUNCAO}:FUNCIONARIO"
